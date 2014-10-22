@@ -1,0 +1,298 @@
+/* CSS Document */
+
+
+html
+{
+	background:#FFF;
+}
+
+body
+{
+	background:url(images/background.png) repeat-x 0 0;
+	font-family: 'Cabin', arial, serif;
+	font-size:18px;
+}
+
+body, ul, li, h1, h2, h3, h4, p, a, img 
+{
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+a:hover
+{
+	color: #666;
+}
+
+h1, h2, h3, h4
+{
+	font-size:22px;
+	font-weight:bolder;
+}
+
+#wrapper 
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+
+
+
+/* HEADER */
+
+#header
+{
+	width: 100%;
+}
+
+#logo
+{
+	height: 0;
+}
+#hand 
+{
+	display: block;
+	margin: 0 auto;
+	width:620px;
+	height:250px;
+	overflow:visible;
+	background: transparent url(images/bg_logo.png) no-repeat 160px 40px;
+}
+
+#title
+{
+	width: 620px;
+	margin: 0 auto;
+	padding-top:70px;
+	padding-bottom:40px;
+	overflow:visible;
+}
+
+
+#title a
+{
+	display:block;
+	height:70px;
+	background: url(images/michael_archbold.png) no-repeat 0 0;
+	text-indent:-9999px;
+}
+
+/* SOCIAL LINKS */
+
+#links 
+{
+	width: 620px;
+	margin: 0 auto;
+	height:60px;
+}
+
+#links ul li
+{
+	float:left;
+	height:60px; 
+	width:60px;
+	text-indent:-9999px;
+	list-style:none;
+	padding-right: 20px;
+	background:transparent url(images/social_icon_bg.png) no-repeat 0 0;
+}
+
+#links ul li:hover
+{
+	background:transparent url(images/social_icon_bg_hover.png) no-repeat 0 0;
+}
+
+#links a
+{
+	display:block;
+	height:60px; 
+	width:60px;
+}
+
+#me a 
+{
+	background:url(http://1.gravatar.com/avatar/450959c063ce7c44762b97fed8af7a83?s=60) no-repeat 0 0;
+}
+
+#links .twitter a
+{
+	background:transparent url(images/social_twitter.png) no-repeat 0 0;
+}
+
+#links .google a
+{
+	background:transparent url(images/social_google.png) no-repeat 0 0;
+}
+
+#links .linkedin a
+{
+	background:transparent url(images/social_linkedin.png) no-repeat 0 0;
+}
+
+#links .xbox a
+{
+	background:transparent url(images/social_xbox.png) no-repeat 0 0;
+}
+
+#links .email a
+{
+	background:transparent url(images/social_email.png) no-repeat 0 0;
+}
+
+#links .distriqt a
+{
+	background:transparent url(images/social_distriqt.png) no-repeat 0 0;
+}
+
+
+
+/* CURRENT INFO */
+
+#info
+{
+	clear:left;
+	color: #fff;
+	margin-top:20px;
+	background: #000 url(images/status_bg.png) repeat-x 0 0;
+}
+
+#status
+{
+	width: 620px;
+	margin: 0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#status ul, 
+#status li, 
+#status a, 
+#status p
+{
+	color: #fff;
+}
+
+#twitter_div ul li
+{
+	list-style:none;
+}
+
+
+/* CONTENT */
+
+#content
+{
+	width: 620px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+#content h1, h2, h3, h4
+{
+	margin-top:40px;
+	margin-bottom:20px;
+}
+#content p
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.project
+{
+	margin:0;
+	display: inline-block;
+	width: 285px;
+	height: 140px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	background: #000 url(images/project_bg_a.png) repeat-x 0 0;
+}
+.project img
+{
+	display:block;
+	padding-left:5px;
+	padding-top: 10px;
+}
+.project a
+{
+	margin: 0;
+	color:#ccc;
+	text-decoration:none;
+}
+.project a span
+{
+	display:block;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+
+
+
+
+/* FOOTER */
+#footer, #push 
+{
+	height: 60px;
+}
+
+#footer
+{
+	background: #111 url(images/footer_bg.png) repeat-x 0 0;
+}
+
+#footer ul
+{
+	width: 620px;
+	margin: 0 auto;
+}
+
+#footer ul li
+{
+	float: left;
+	text-indent:-9999px;
+	padding: 10px;
+	padding-bottom:5px;
+}
+
+#footer a
+{
+	display: block;
+	height: 45px;
+	width: 140px;
+}
+
+#footer .distriqt a
+{
+	background:transparent url(images/distriqt_logo.png) no-repeat 0 0;
+}
+
+#footer .distriqt a:hover
+{
+	background:transparent url(images/distriqt_logo_over.png) no-repeat 0 0;
+}
+
+#footer .zappp a
+{
+	background:transparent url(images/zappp_logo.png) no-repeat 0 0;
+}
+#footer .zappp a:hover
+{
+	background:transparent url(images/zappp_logo_over.png) no-repeat 0 0;
+}
+
+
+
+
+
+
+#feed 
+{
+	width: 620px;
+	height: 100%;
+	border: none;
+}
+
